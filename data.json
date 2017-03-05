@@ -1,0 +1,147 @@
+{
+    "dates": {
+        "20170111_blantons": {
+            "date": "01/11/2017",
+            "place": "The Peanut",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJlSYGa3HswIcR0YExr8WUsOM",
+            "bourbon": "Blanton's",
+            "photo": "blantons.png",
+            "proof": 93,
+            "distance": 1
+        }, 
+        "20170112_pendergast": {
+            "date": "01/12/2017",
+            "place": "Tom's Town Distilling Co.",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJY8BKgELwwIcR8k1lhcVvOjE",
+            "bourbon": "Pendergast's Royal Gold Bourbon",
+            "photo": "pendergast.png",
+            "proof": 90,
+            "distance": 11
+        },
+        "20170125_templeton": {
+            "date": "01/25/2017",
+            "place": "Home",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJ0zgmp1GVwIcRyPlEOOtPziQ",
+            "bourbon": "Templeton Rye",
+            "photo": "templeton.png",
+            "proof": 80,
+            "distance": 0
+        },
+        "20170125_buffalotrace": {
+            "date": "01/25/2017",
+            "place": "The Peanut",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJlSYGa3HswIcR0YExr8WUsOM",
+            "bourbon": "Buffalo Trace",
+            "photo": "buffalotrace.jpg",
+            "proof": 90,
+            "distance": 1
+        },
+        "20170201_basilhaden": {
+            "date": "02/01/2017",
+            "place": "The Peanut",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJlSYGa3HswIcR0YExr8WUsOM",
+            "bourbon": "Basil Hayden",
+            "photo": "basilhayden.png",
+            "proof": 80,
+            "distance": 1
+        },
+        "20170208_woodford": {
+            "date": "02/08/2017",
+            "place": "The Peanut",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJlSYGa3HswIcR0YExr8WUsOM",
+            "bourbon": "Woodford Reserve",
+            "photo": "woodford.png",
+            "proof": 90.4,
+            "distance": 1
+        },
+        "20170215_blantons": {
+            "date": "02/15/2017",
+            "place": "The Peanut",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJlSYGa3HswIcR0YExr8WUsOM",
+            "bourbon": "Blanton's",
+            "photo": "blantons.png",
+            "proof": 93,
+            "distance": 1
+        },
+        "20170216_fourroses": {
+            "date": "02/16/2017",
+            "place": "Home",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJ0zgmp1GVwIcRyPlEOOtPziQ",
+            "bourbon": "Four Roses (Single Barrel)",
+            "photo": "fourroses.png",
+            "proof": 100,
+            "distance": 0
+        },
+        "20170222_coloneltaylor": {
+            "date": "02/22/2017",
+            "place": "The Peanut",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJlSYGa3HswIcR0YExr8WUsOM",
+            "bourbon": "Colonel Taylor (Single Barrel)",
+            "photo": "coloneltaylor.png",
+            "proof": 100,
+            "distance": 1
+        },
+        "20170225_oldgranddad": {
+            "date": "02/25/2017",
+            "place": "J.O.B. Public House",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJF10E8QJjz4cRMOK9R7PK7l0",
+            "bourbon": "Old Grand-Dad",
+            "photo": "oldgranddad.png",
+            "proof": 100,
+            "distance": 165
+        },
+        "20170225_pappy": {
+            "date": "02/25/2017",
+            "place": "J.O.B. Public House",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJF10E8QJjz4cRMOK9R7PK7l0",
+            "bourbon": "Pappy Van Winkle (15yr)",
+            "photo": "pappy15.png",
+            "proof": 107,
+            "distance": 165
+        },
+        "20170301_bulleit": {
+            "date": "03/01/2017",
+            "place": "Home",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJ0zgmp1GVwIcRyPlEOOtPziQ",
+            "bourbon": "Bulleit Rye (Small Batch)",
+            "photo": "bulleitrye.png",
+            "proof": 95,
+            "distance": 0
+        },
+        "20170301_kylesoldfashioned": {
+            "date": "03/01/2017",
+            "place": "The Peanut",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJlSYGa3HswIcR0YExr8WUsOM",
+            "bourbon": "Kyle's Old Fashioned",
+            "photo": "kylesoldfashioned.png",
+            "proof": 100,
+            "distance": 1
+        }
+    }
+}

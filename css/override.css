@@ -1,0 +1,181 @@
+.content-section-b, .group {
+    background-color: #000;
+    border:none;
+}
+
+.intro-header {
+    background-image: url(../img/bourbon/bourbon.jpg);
+}
+
+.rotater {
+    border-radius: 50%;
+}
+
+.bourbon {
+    background-image: url(../img/bourbon/bourbon.jpg);
+    position: relative;
+    padding-bottom: 40px;
+    background-size: cover;
+}
+
+.bourbon:before {
+    content: ' ';
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+}
+
+.pink {
+    color: #FF358B;
+    color: #D96704;
+}
+
+.charcoal {
+    color: #333;
+}
+
+.slate {
+    color: #666;
+}
+
+.blue {
+    color: #01B0F0;
+    color: #BFB74B;
+}
+
+.green {
+    color: #AEEE00;
+    color: #BF3617;
+}
+
+.banner-wrap {
+    margin-bottom: 40px;
+}
+
+.banner-title {
+    font-size: 3rem;
+    color: #000;
+    font-weight: bold;
+    text-shadow: -1px -1px white;
+}
+
+.banner-date {
+    background: black;
+    font-size: 1.6rem;
+    color: #eaeaea;
+    font-weight: bold;
+}
+
+.banner-title.green {
+    background: #AEEE00;
+    background: #BF3617;
+}
+
+.banner-title.pink {
+    background: #FF358B;
+    background: #D96704;
+}
+
+.banner-title.blue {
+    background: #01B0F0;
+    background: #BFB74B;
+}
+
+.blackout {
+    background: rgba(0, 0, 0, .7);
+    padding: 20px;
+}
+
+.navbar-default .navbar-toggle:hover:before, .navbar-default .navbar-toggle:focus:before {
+    color: #BF3617;
+}
+
+.navbar-toggle:hover:before, .navbar-toggle:focus:before {
+    color: #BF3617;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #BF3617;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #BF3617;
+}
+
+.bourbon-list {
+    text-align: center;
+}
+
+.group, .content-section-b {
+    background: repeating-linear-gradient(
+      -55deg,
+      #000,
+      #000 10px,
+      #111 10px,
+      #111 20px
+    );
+}
+
+.group-links h2 {
+    margin-bottom: 40px;
+}
+
+.bourbon-list .menuItem {
+    display: inline-block;
+    margin-right: 50px;
+    background: #AEEE00;
+    background: #BFB74B;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.bourbon-list .menuItem a {
+    font-size: 2rem;
+    color: #333;
+}
+
+.group-links {
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .h1_home {
+        font-size: 70px;
+    }
+
+    .content-section-b {
+        padding-top: 0px;
+    }
+
+    .group-links h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .group-links {
+        padding: 0px;
+    }
+
+    h2, .h2 {
+        font-size: 40px;
+    }
+
+    .bourbon-list .menuItem {
+        margin-right: 20px;
+        padding: 2px;
+        margin-bottom: 10px;
+    }
+
+    .bourbon-list .menuItem a {
+        font-size: 1.5rem;
+    }
+}
+
+
+

@@ -1,0 +1,15 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "name": "Bourbon w/ Kate",
+  "description": "Joel, Kate and their adventures in bourbon!",
+  "short_name": "bourbonwithkate",
+  "icons": [{
+    "src": "//existdissolve.com/bourbonwithkate/img/bourbon/favicon/favicon-196x196.png",
+    "sizes": "196x196"
+  }],
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "black",
+  "background_color": "black"
+}
