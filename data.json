@@ -142,6 +142,17 @@
             "photo": "kylesoldfashioned.png",
             "proof": 100,
             "distance": 1
+        },
+        "20170309_elijahcraig": {
+            "date": "03/09/2017",
+            "place": "The Peanut",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJlSYGa3HswIcR0YExr8WUsOM",
+            "bourbon": "Elijah Craig",
+            "photo": "elijahcraig.png",
+            "proof": 94,
+            "distance": 1
         }
     }
 }

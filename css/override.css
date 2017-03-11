@@ -143,6 +143,16 @@
     padding: 20px 0;
 }
 
+#preloader {
+    z-index: 9999999;
+}
+
+@media only screen and (max-width: 767px) {
+    .button_down {
+        display: inherit;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .h1_home {

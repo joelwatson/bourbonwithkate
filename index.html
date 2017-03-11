@@ -94,7 +94,6 @@
     <div class="intro-header">
         <div class="col-xs-12 text-center abcen1">
             <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Bourbon with Kate</h1>
-            <img src="img/favicon/favicon-128.png" />
             <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">2017</h3>
         </div>    
         <!-- /.container -->
@@ -121,17 +120,16 @@
             <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
                     <li class="menuItem"><a href="#stats">Stats</a></li>
-                    <li class="menuItem"><a href="#january2017">January</a></li>
-                    <li class="menuItem"><a href="#february2017">February</a></li>
                     <li class="menuItem"><a href="#march2017">March</a></li>
+                    <li class="menuItem"><a href="#february2017">February</a></li>
+                    <li class="menuItem"><a href="#january2017">January</a></li>
                 </ul>
             </div>
-           
         </div>
     </nav> 
 
     <!-- What is -->
-    <div data-slug="stats" class="content-section-b" style="border-top: 0">
+    <div data-slug="stats" class="content-section-b" style="border-top: 0; padding-top: 0px;">
         <div class="container">
 
             <div class="col-md-6 col-md-offset-3 text-center wrap_title">
@@ -146,7 +144,7 @@
     <!-- stat tpl -->
     <script id="statTpl" type="text/template">
         <div class="col-sm-12 wow fadeInDown text-center">
-          <img class="rotater" src="img/bourbon/kate.jpeg">
+          <img class="rotater" src="img/bourbon/kate.jpeg" width="100" height="100">
           <h1 class="slate"><span class="counter blue">{{count}}</span> Bourbons</h1>
           <h1 class="slate"><span class="counter blue">{{locations}}</span> Locations</h1>
           <h1 class="slate"><span class="counter blue">{{distance}}</span> Miles</h1>
@@ -234,53 +232,24 @@
         };
         firebase.initializeApp(config);
 
-        function calcAvg (time, distance, unit) {
-            var timeSplit = time.split('.'),
-                minutes = parseInt(timeSplit[0]),
-                seconds = parseInt(timeSplit[1]),
-                allSeconds = (minutes*60) + seconds,
-                distance = unit === 'k' ? distance : distance * 0.621371,
-                avg = allSeconds / distance,
-                finalAvg, totalMins, totalSeconds, finalTime;
-
-            totalMins = Math.floor(avg / 60);
-            totalSeconds = Math.floor(avg - totalMins * 60);
-
-            finalTime = totalMins + '.' + (totalSeconds.toString().length == 2 ? totalSeconds : ('0' + totalSeconds).toString());
-
-            return parseFloat(finalTime).toFixed(2);
-        }
-
-        function getTotalTime (data, person) {
-            var totalseconds = 0,
-                i, split, distance, seconds, minutes, item,
-                finalMins, finalSeconds, finalTime;
-
-            for (i=0; i<data.length; i++) {
-                item = data[i];
-                split = item.results[person].time.split('.');
-                seconds = parseInt(split[1]);
-                minutes = parseInt(split[0]);
-                totalseconds += ((minutes*60) + seconds);
-            }
-            finalMins = Math.floor(totalseconds / 60);
-            finalSeconds = Math.floor(totalseconds - finalMins * 60);
-
-            finalTime = finalMins + '.' + (finalSeconds.toString().length == 2 ? finalSeconds : ('0' + finalSeconds).toString());
-
-            return parseFloat(finalTime).toFixed(2);
-        }
-
         function calcTotals (data) {
             var len = data.length,
                 totalMiles = 0,
                 totalProof = 0,
                 bourbonMap = {},
                 locationMap = {},
+                locationDateMap = {},
                 i, item;
+
             for (i=0; i<len; i++) {
                 item = data[i];
-                totalMiles += item.distance;
+                locDateKey = item.place + '_' + item.date;
+
+                if (!locationDateMap[locDateKey]) {
+                    locationDateMap[locDateKey] = true;
+                    totalMiles += item.distance;
+                }
+
                 totalProof += item.proof;
                 bourbonMap[item.bourbon] = true;
                 locationMap[item.place] = true;
@@ -316,7 +285,7 @@
             }
 
             var finalData = keys.sort(function (o1, o2) {
-                return new Date(o1.date) - new Date(o2.date);
+                return new Date(o2.date) - new Date(o1.date);
             });
 
             for (var i=0; i<finalData.length; i++) {
@@ -414,11 +383,16 @@
         });
     </script>
     <script type="text/javascript">
-      jQuery(function($) {
-        $(document).ready( function() {
-          $('.navbar-default').stickUp();
-        });
-      });    
+        jQuery(function($) {
+            $(document).ready( function() {
+                $('.navbar-default').stickUp();
+            });
+        });    
+        $(window).load(function() { 
+            //Preloader 
+            $('#status').delay(3000).fadeOut(); 
+            $('#preloader').delay(3000).fadeOut('slow');
+        })
     </script>
 </body>
 
