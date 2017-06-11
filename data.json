@@ -241,6 +241,94 @@
             "photo": "jeffersonocean.png",
             "proof": 90,
             "distance": 0
+        },
+        "20170412_kavalan": {
+            "date": "04/12/2017",
+            "place": "Bōru Ramen Bar",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJu_UfDSXvwIcR-nmvseNAavE",
+            "bourbon": "Kavalan Concertmaster - Port Cask Finish",
+            "photo": "kavalan.png",
+            "proof": 80,
+            "distance": 4
+        },
+        "20170419_ri1": {
+            "date": "04/19/2017",
+            "place": "Home",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJ0zgmp1GVwIcRyPlEOOtPziQ",
+            "bourbon": "(ri)1",
+            "photo": "ri1.png",
+            "proof": 92,
+            "distance": 0
+        },
+        "20170503_elijahcraig": {
+            "date": "05/03/2017",
+            "place": "Home",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJ0zgmp1GVwIcRyPlEOOtPziQ",
+            "bourbon": "Elijah Craig Small Batch",
+            "photo": "elijahcraigsmallbatch.png",
+            "proof": 94,
+            "distance": 0
+        },
+        "20170506_rebelyell": {
+            "date": "05/06/2017",
+            "place": "Norwalk, IA",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJyQ7o90ih7ocR4w6saPmjurM",
+            "bourbon": "Rebel Yell",
+            "photo": "rebelyell.png",
+            "proof": 80,
+            "distance": 190
+        },
+        "20170506_woodford": {
+            "date": "05/06/2017",
+            "place": "Norwalk, IA",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJyQ7o90ih7ocR4w6saPmjurM",
+            "bourbon": "Woodford Reserve Double Oaked",
+            "photo": "woodforddouble.png",
+            "proof": 90.4,
+            "distance": 190
+        },
+        "20170510_breckenridge": {
+            "date": "05/10/2017",
+            "place": "Home",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJ0zgmp1GVwIcRyPlEOOtPziQ",
+            "bourbon": "Breckenridge",
+            "photo": "breckenridge.png",
+            "proof": 86,
+            "distance": 0
+        },
+        "20170531_peanutoldfashioned": {
+            "date": "05/10/2017",
+            "place": "The Peanut",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJlSYGa3HswIcR0YExr8WUsOM",
+            "bourbon": "Barrel-aged Peanut Old Fashioned",
+            "photo": "peanutoldfashioned.png",
+            "proof": 90,
+            "distance": 1
+        },
+        "20170603_cedarridge": {
+            "date": "06/03/2017",
+            "place": "Norwalk, IA",
+            "latitude": "",
+            "longitude": "",
+            "placeId": "ChIJyQ7o90ih7ocR4w6saPmjurM",
+            "bourbon": "Cedar Ridge",
+            "photo": "cedarridge.png",
+            "proof": 80,
+            "distance": 190
         }
     }
 }
